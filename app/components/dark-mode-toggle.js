@@ -10,4 +10,4 @@ export default function DarkModeToggle({defaultMode = 'dark'}) {
     {theme === 'light' && <Moon className="w-6 h-6" />}
     {theme === 'dark' && <Sun className="w-6 h-6" />}
   </Button>
-}p
+}
